@@ -18,7 +18,6 @@ export interface TrackingState {
   status: TrackingStatus;
 
   activeWorkId: string | null;
-  activeSessionId: string | null;
   activeIntervalId: string | null;
 
   pauseReason: PauseReason;
